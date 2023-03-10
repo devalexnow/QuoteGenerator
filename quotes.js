@@ -55,4 +55,8 @@ const localQuotes = [
         text: "Dość!",
         author: "Jan Paweł II",
     },
+    {
+        text: "mmm puuuu!",
+        author: "Alan Kwieciński",
+    },
 ]
