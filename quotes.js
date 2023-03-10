@@ -1,6 +1,6 @@
 const localQuotes = [
     {
-        text: "Można. Jeszcze jak!",
+        text: "Można, jak najbardziej, jeszcze jak!",
         author: "Jan Paweł II",
     },
     {
@@ -38,5 +38,18 @@ const localQuotes = [
     {
         text: "...ja bym z takim Papieżem nie wytrzymał",
         author: "Jan Paweł II",
-    }
+    },
+    {
+        text: "Po co mam wybierać? Najlepiej zabrać obie",
+        author: "Jan Paweł II",
+    },
+    {
+        text: "..może nawet z dziewczynkami też",
+        author: "Jan Paweł II",
+    },
+    {
+        text: "Z warkoczykami, albo bez warkoczyków.. też ujdą",
+        author: "Jan Paweł II",
+    },
+
 ]
