@@ -30,7 +30,7 @@ function tweetQuote() {
 }
 
 //Event listeners
-newQuoteBtn.addEventListener('click', newQuote)
-twitterBtn.addEventListener('click', tweetQuote)
+newQuoteBtn.addEventListener('click', newQuote);
+twitterBtn.addEventListener('click', tweetQuote);
 
 newQuote()

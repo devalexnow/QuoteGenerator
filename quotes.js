@@ -51,5 +51,8 @@ const localQuotes = [
         text: "Z warkoczykami, albo bez warkoczyków.. też ujdą",
         author: "Jan Paweł II",
     },
-
+    {
+        text: "Dość!",
+        author: "Jan Paweł II",
+    },
 ]
