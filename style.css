@@ -16,14 +16,18 @@ body{
     text-align: center;
     display: flex;
     flex-direction: column;
-    row-gap: 100px;
+    row-gap: 10rem;
     align-items: center;
     justify-content: center;
 }
 
 audio::-webkit-media-controls-panel {
     background-color: #fbfba5;
- }
+}
+
+.video-container {
+    border-radius: 50;
+}
 
 .quote-container {
     width: auto;
