@@ -31,6 +31,7 @@ function tweetQuote() {
 
 //Event listeners
 newQuoteBtn.addEventListener('click', newQuote);
+newQuoteBtn.addEventListener('enter', newQuote);
 twitterBtn.addEventListener('click', tweetQuote);
 
 newQuote()
