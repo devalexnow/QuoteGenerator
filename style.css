@@ -16,13 +16,17 @@ body{
     text-align: center;
     display: flex;
     flex-direction: column;
-    row-gap: 10rem;
+    row-gap: 5rem;
     align-items: center;
     justify-content: center;
 }
 
 audio::-webkit-media-controls-panel {
     background-color: #fbfba5;
+}
+
+.video-container {
+    padding: 50px 50px;
 }
 
 .quote-container {
