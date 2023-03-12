@@ -30,7 +30,7 @@ function newQuote() {
         authorText.textContent = quote.author;
     }
     // Check if quote is too long 
-    if (quote.text.length > 80) {
+    if (quote.text.length > 100) {
         quotesText.classList.add('long-quote');
     } else {
         quotesText.classList.remove('long-quote');
