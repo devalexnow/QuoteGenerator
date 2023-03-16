@@ -11,7 +11,6 @@ function showLoadingSpinner() {
     quoteContainer.hidden = true; //cytat będzie schowany
 }
 
-//Hide loading
 function removeLoadingSpinner() {
     quoteContainer.hidden = false; //cytat będzie widoczny
     loader.hidden = true; //loader będzie schowany
@@ -53,13 +52,12 @@ async function getQuotes() {
 }
 
 
-//Tweet a quote
 function tweetQuote() {
     const twitterUrl = `https://twitter.com/intent/tweet?text=${quotesText.textContent} - ${authorText.textContent}`;
     window.open(twitterUrl, `_blank`);
 }
 
-//Event listeners
+
 newQuoteBtn.addEventListener('click', newQuote);
 twitterBtn.addEventListener('click', tweetQuote);
 

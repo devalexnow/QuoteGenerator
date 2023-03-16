@@ -31,7 +31,7 @@ body{
 }
 
 .quote-text {
-    font-size: 2.75rem;
+    font-size: 3rem;
 }
 
 .long-quote {
@@ -105,6 +105,6 @@ button:active {
         margin: auto 10px;
     }
     .quote-text {
-        font-size: 2.5rem;
+        font-size: 2.4rem;
     }
 }
