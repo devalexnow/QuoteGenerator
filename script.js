@@ -7,13 +7,15 @@ const loader = document.getElementById('loader');
 let apiQuotes =[];
 
 function showLoadingSpinner() {
-    // loader.hidden = false; //loader będzie widoczny
+    loader.hidden = false; //loader będzie widoczny
     quoteContainer.hidden = true; //cytat będzie schowany
 }
 
 function removeLoadingSpinner() {
-    quoteContainer.hidden = false; //cytat będzie widoczny
-    loader.hidden = true; //loader będzie schowany
+    if (!loader.hidden) {
+        quoteContainer.hidden = false; //cytat będzie widoczny
+        loader.hidden = true; //loader będzie schowany
+    }
 }
 
 // Show new quote
