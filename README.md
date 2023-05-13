@@ -1,4 +1,4 @@
-# **Quote Generator***
+# **Quote Generator**
 ### made in JavaScript
 
 ## **About the project**
